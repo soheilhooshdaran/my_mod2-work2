@@ -9,7 +9,7 @@ h1 {
 @media (min-width: 992px){
 
   #section1 {
-    width: 33%;
+    width: 33.3%;
     color:white;
     background-color: blue;
     border: 2px solid black;
@@ -19,34 +19,32 @@ h1 {
 
     #section2 {
       color:white;
-      width: 33%;
+      width: 33.3%;
       background-color: LIGHTGREEN;
       border: 2px solid black;
       padding: 5px;
       float: right;
       position: absolute;
       top:0;
-      right:33%;
+     right:33.3%;
       box-sizing: border-box;
     }
 
     #section3 {
-    color:white;
-    width: 33%;
-    background-color: gray;
-    border: 2px solid black;
-    padding: 5px;
-    float: right;
-    position: absolute;
-    top:0;
-    right:0;
-    box-sizing: border-box;
-
-
+      color:white;
+      width: 33.3%;
+      background-color: gray;
+      border: 2px solid black;
+      padding: 5px;
+      float: right;
+      position: absolute;
+      top:0;
+      right:0;
+      box-sizing: border-box;
   }
   }
 
-}
+
 @media (min-width: 768px) and (max-width: 991px) {
   #section1 {
     width:50%;
@@ -74,8 +72,6 @@ h1 {
       padding: 5px;  
     }
   }
-
-
 @media(max-width: 767px){
   #section1{
     color:white;
