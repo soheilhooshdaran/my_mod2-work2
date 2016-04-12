@@ -1,0 +1,42 @@
+div{
+  position:relative;
+  text-align:cen;}
+}
+h1 {
+  color:green;
+  text-align:center;
+}
+@media (min-width: 992px){
+
+  section {
+
+ color:white;
+  background-color: blue;
+  border: 2px solid black;
+  margin:3px;
+  padding: 5px;
+
+  }
+}
+@media (min-width: 768px)  and (max-width: 991px) {
+  #section1 {
+    width:50%;
+    background-color: blue;
+    border: 2px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  #section2{
+    width:50%;
+    background-color: lightgreen;
+    border: black;
+    position: absolute;
+    top:0;
+    right:0;
+    float: right;
+    border: 2px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  }
+}
