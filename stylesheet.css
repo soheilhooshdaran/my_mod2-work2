@@ -9,7 +9,7 @@ h1 {
 @media (min-width: 992px){
 
   #section1 {
-    width: 33.3%;
+    width: 33.33%;
     color:white;
     background-color: blue;
     border: 2px solid black;
@@ -19,20 +19,20 @@ h1 {
 
     #section2 {
       color:white;
-      width: 33.3%;
+      width: 33.33%;
       background-color: LIGHTGREEN;
       border: 2px solid black;
       padding: 5px;
       float: right;
       position: absolute;
       top:0;
-     right:33.3%;
+     right:33.33%;
       box-sizing: border-box;
     }
 
     #section3 {
       color:white;
-      width: 33.3%;
+      width: 33.33%;
       background-color: gray;
       border: 2px solid black;
       padding: 5px;
