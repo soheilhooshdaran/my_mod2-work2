@@ -29,20 +29,17 @@ h1 {
       right:33%;
       box-sizing: border-box;
     }
-    #section3 {
-    color:white;
-    background-color: gray;
-    border: 2px solid black;
-    margin:3px;
-    padding: 5px;
-
 
     #section3 {
     color:white;
     width: 33%;
     background-color: gray;
     border: 2px solid black;
+    padding: 5px;
     float: right;
+    position: absolute;
+    top:0;
+    right:0;
     box-sizing: border-box;
 
 
@@ -60,7 +57,7 @@ h1 {
   }
   #section2{
     width:50%;
-    background-color: lightgreen;
+    background-color: green;
     border: black;
     position: absolute;
     top:0;
@@ -70,33 +67,34 @@ h1 {
     padding: 5px;
     box-sizing: border-box;
   }
-    #section3 {
-
+    #section3{
       color:white;
       background-color: gray;
       border: 2px solid black;
       padding: 5px;  
     }
   }
-}
+
 
 @media(max-width: 767px){
   #section1{
     color:white;
     background-color: blue;
     border: 2px solid black;
+    padding: 5px;
     box-sizing: border-box;
   }
+
   #section2{
     color:white;
     background-color: green;
+   
     border: 2px solid black;
-    box-sizing: border-box;
+   
   }
   #section3{
     color:white;
     background-color: gray;
-    border: 2px solid black;
-    box-sizing: border-box;;
+   
   }
 }
