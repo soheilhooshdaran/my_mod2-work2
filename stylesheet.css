@@ -6,13 +6,21 @@ h1 {
   color:green;
   text-align:center;
 }
+.sectiontitle
+{
+  float: right;
+  clear: both;
+  background-color: purple;
+  border: 2px solid black; 
+  box-sizing: border-box;
+}
 @media (min-width: 992px){
 
   #section1 {
     width: 33.33%;
     color:white;
-    background-color: blue;
-    border: 2px solid black;
+   background-color: blue;
+    border: 2px solid black; 
     padding: 5px;
     box-sizing: border-box;
   }
