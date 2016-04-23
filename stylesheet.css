@@ -8,18 +8,23 @@ h1 {
 }
 .sectiontitle
 {
-  float: right;
-  clear: both;
+  position: absolute;
+  top:0;
+  right:0;
+  clear:both;
   background-color: purple;
   border: 2px solid black; 
   box-sizing: border-box;
+}
+section{
+  position: relative;
 }
 @media (min-width: 992px){
 
   #section1 {
     width: 33.33%;
     color:white;
-   background-color: blue;
+    background-color: blue;
     border: 2px solid black; 
     padding: 5px;
     box-sizing: border-box;
@@ -63,7 +68,7 @@ h1 {
   }
   #section2{
     width:50%;
-    background-color: green;
+    background-color: lightgreen;
     border: black;
     position: absolute;
     top:0;
@@ -91,7 +96,7 @@ h1 {
 
   #section2{
     color:white;
-    background-color: green;
+    background-color: lightgreen;
    
     border: 2px solid black;
    
