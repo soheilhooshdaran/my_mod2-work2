@@ -8,6 +8,8 @@ h1 {
 }
 .sectiontitle
 {
+  margin: 0;
+  padding: 0;
   position: absolute;
   top:0;
   right:0;
@@ -70,7 +72,7 @@ section{
     width:50%;
     background-color: lightgreen;
     border: black;
-    position: absolute;
+    position: relative;
     top:0;
     right:0;
     float: right;
