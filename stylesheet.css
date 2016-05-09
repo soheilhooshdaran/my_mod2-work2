@@ -82,6 +82,7 @@ section{
     box-sizing: border-box;
   }
     #section3{
+      margin:0;
       color:white;
       background-color: gray;
       border: 2px solid black;
@@ -100,13 +101,13 @@ section{
   #section2{
     color:white;
     background-color: lightgreen;
-   
     border: 2px solid black;
-   
+    box-sizing: border-box;   
   }
   #section3{
+    border: 2px solid black;
     color:white;
     background-color: gray;
-   
+    box-sizing: border-box;   
   }
 }
