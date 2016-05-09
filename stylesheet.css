@@ -6,7 +6,7 @@ h1 {
   color:green;
   text-align:center;
 }
-.sectiontitle
+#section1 .sectiontitle
 {
   
   margin: 0;
@@ -19,6 +19,33 @@ h1 {
   border: 2px solid black; 
   box-sizing: border-box;
 }
+#section2 .sectiontitle
+{
+  
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float:right;
+  top:0;
+  right:0;
+  background-color: orange;
+  border: 2px solid black; 
+  box-sizing: border-box;
+}
+#section3 .sectiontitle
+{
+  
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float:right;
+  top:0;
+  right:0;
+  background-color: yellow;
+  border: 2px solid black; 
+  box-sizing: border-box;
+}
+
 section{
   position: relative;
 }
